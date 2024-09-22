@@ -1,0 +1,55 @@
+/* General Cart Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+.cart-items, .total-price {
+    padding: 50px 20px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    font-size: 36px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-info {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.cart-info h3 {
+    font-size: 24px;
+}
+
+input.quantity {
+    width: 60px;
+    padding: 5px;
+}
+
+.item-total {
+    font-size: 18px;
+    color: #666;
+}
+
+.total-price p {
+    font-size: 24px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #ff5722;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
