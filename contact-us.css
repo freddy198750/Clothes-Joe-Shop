@@ -1,0 +1,41 @@
+/* General Contact Us Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+.contact-info, .contact-form {
+    padding: 50px 20px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    font-size: 36px;
+}
+
+p, label {
+    font-size: 18px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+textarea {
+    height: 150px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #ff5722;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
