@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>รายละเอียดสินค้า - ร้านเสื้อ</title>
+    <link rel="stylesheet" href="product-detail.css">
+</head>
+<body>
+    <!-- Product Image & Title Section -->
+    <section class="product-detail">
+        <img src="shirt1.jpg" alt="เสื้อรุ่น A">
+        <div class="product-info">
+            <h1>เสื้อรุ่น A</h1>
+            <p>ราคา: 500 บาท</p>
+            <p>ขนาด: S, M, L, XL</p>
+            <p>ชนิดของผ้า: คอตตอน 100%</p>
+            <p>มาจาก: ประเทศไทย</p>
+            <button class="btn">เพิ่มลงตะกร้า</button>
+        </div>
+    </section>
+
+    <!-- Size & Color Options Section -->
+    <section class="options">
+        <h2>เลือกขนาดและสี</h2>
+        <div class="size-options">
+            <label for="size">ขนาด:</label>
+            <select id="size">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+            </select>
+        </div>
+        <div class="color-options">
+            <label for="color">สี:</label>
+            <select id="color">
+                <option value="red">แดง</option>
+                <option value="blue">น้ำเงิน</option>
+                <option value="black">ดำ</option>
+                <option value="white">ขาว</option>
+            </select>
+        </div>
+    </section>
+
+    <!-- Related Products Section -->
+    <section class="related-products">
+        <h2>สินค้าที่เกี่ยวข้อง</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="shirt2.jpg" alt="เสื้อรุ่น B">
+                <h3>เสื้อรุ่น B</h3>
+                <p>ราคา: 600 บาท</p>
+                <a href="product-detail.html" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="product-detail.js"></script>
+</body>
+</html>
