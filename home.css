@@ -1,0 +1,175 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #ff5733;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #ff9800, #ff5722);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Featured Products Section */
+.featured-products {
+    padding: 50px 20px;
+    text-align: center;
+    background: #ffffff;
+}
+
+.products-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product {
+    background: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    font-size: 24px;
+}
+
+.product p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Promotion Section */
+.promotion {
+    padding: 50px 20px;
+    background: #ff5722;
+    color: white;
+    text-align: center;
+}
+
+.promotion h2 {
+    font-size: 36px;
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+    padding: 50px 20px;
+    background: #ffffff;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature h3 {
+    font-size: 24px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 50px 20px;
+    background: #f1f1f1;
+    text-align: center;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+}
+
+.testimonial p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Newsletter Section */
+.newsletter {
+    padding: 50px 20px;
+    background: #333;
+    color: white;
+    text-align: center;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Footer Section */
+footer {
+    padding: 20px;
+    background: #222;
+    color: white;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-links, .social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li, .social-links li {
+    display: inline;
+    margin-right: 20px;
+}
